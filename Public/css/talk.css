@@ -1,0 +1,112 @@
+﻿/* new page-title-tab by yang.zhao */
+.page-titletabs{padding-top:5px;margin-bottom:10px;position:relative}
+.page-titletabs .title-name{padding-left:24px;padding-top:3px;font-size:14px;font-weight:bold;float:left;margin-right:14px}
+.page-titletabs ul.nav-tabs{}
+.page-titletabs ul.nav-tabs li{float:left;margin:0 10px;height:22px;line-height:22px;font-weight:bold}
+.page-titletabs ul.nav-tabs li span{}
+.page-titletabs ul.nav-tabs li.pipe,.page-titletabs ul.nav-tabs li.angleright{margin:0;font-weight:lighter;color:#CCCCCC}
+*+html .page-titletabs ul.nav-tabs li.pipe{line-height:16px}
+.page-titletabs ul.nav-tabs li.angleright{background:transparent url(http://a.xnimg.cn/imgpro/arrow/angleright.gif) no-repeat left 8px;width:5px;height:9px;padding-top:6px}
+*+html .page-titletabs ul.nav-tabs li.angleright{background:transparent url(http://a.xnimg.cn/imgpro/arrow/angleright.gif) no-repeat left 6px}
+.page-titletabs ul.nav-tabs li.selected a{background: url(http://a.xnimg.cn/imgpro/bg/page-tabs.png) no-repeat left top;display:block;color:#fff;padding-left:10px}
+.page-titletabs ul.nav-tabs li.selected a span{background: url(http://a.xnimg.cn/imgpro/bg/page-tabs.png) no-repeat right top;display:block;padding:5px 10px 6px 0;line-height:12px;cursor:pointer}
+* html .page-titletabs ul.nav-tabs li.selected a span{padding:6px 10px 5px 0;line-height:12px}
+*+html .page-titletabs ul.nav-tabs li.selected a span{padding:7px 10px 4px 0;line-height:12px}
+.page-titletabs .setPrivacy{background:transparent url(http://a.xnimg.cn/imgpro/bg/cs_navtop.gif) no-repeat scroll -25px 4px;padding-left:20px;float:right;height:25px;line-height:25px}
+
+/** Talk page-title-tab by yang.zhao **/
+.page-titletabs{margin-bottom:15px}
+.page-titletabs .photo{background:transparent url(http://a.xnimg.cn/imgpro/icons/reply.gif) no-repeat 0 4px}
+
+/** Talk by yang.zhao  **/
+#pageTalk .compatible {float:left;width:720px;}
+#pageTalk #content {width:720px;}
+.main-home{width:560px;overflow:hidden:z-index:1;margin:20px auto;}
+.main-sidebar{width:140px;float:left;overflow:hidden}
+/** add ads by zhouming */
+.blank-bar{float:right;width:240px;margin-top:33px;}
+.Widget .side-item{border:none!important}
+/** group-sidebar by yang.zhao **/
+.group-sidebar .user-information{margin-bottom:20px}
+.group-sidebar .user-information a.user-pic{float:left;margin-right:10px;display:block}
+* html .group-sidebar .user-information a.user-pic{margin-right:7px}
+.group-sidebar .user-information span,.Talk .group-sidebar .user-information strong{display:block;color:#999;padding-bottom:3px}
+.group-sidebar h1{font-size:14px;padding-bottom:8px;border-bottom:1px solid #E3EEF8}
+/*RecentContact List*/
+.group-sidebar .RecentContact-list{margin-bottom:10px}
+.group-sidebar .RecentContact-list li{border-bottom:1px solid #E3EEF8;height:26px;line-height:26px;overflow:hidden;width:140px;position:relative;display:block}
+* html .group-sidebar .RecentContact-list li{float:left}
+*+html .group-sidebar .RecentContact-list li{float:left}
+.group-sidebar .RecentContact-list li a{display:block;height:26px;line-height:26px;padding-left:10px}
+.group-sidebar .RecentContact-list li a:hover{background-color:#F0F5F8;text-decoration:none}
+/*.group-sidebar .RecentContact-list li.unread,
+.group-sidebar .RecentContact-list li.unread a:hover{background: url(http://a.xnimg.cn/imgpro/chat/bluedot.gif) no-repeat 125px center}*/
+.group-sidebar .RecentContact-list li.select a{background:url(http://a.xnimg.cn/imgpro/bg/GroupList-bg.png) no-repeat 0 0;color:#fff;text-decoration:none}
+.group-sidebar .RecentContact-list li a.x-to-hide{position:absolute;display:none;right:5px;top:7px;width:14px;height:14px;padding:0;margin:0;background:transparent url(http://a.xnimg.cn/imgpro/icons/icon_btn_all.gif) no-repeat -63px -420px}
+.group-sidebar .RecentContact-list li a.x-to-hide:hover{padding:0;margin:0;background-position: -63px -433px}
+.group-sidebar .RecentContact-list li:hover, 
+.group-sidebar .RecentContact-list li.hover{background-color:#F0F5F8}
+.group-sidebar .RecentContact-list li:hover a.x-to-hide,
+.group-sidebar .RecentContact-list li.hover a.x-to-hide{display:block;padding:0;margin:0;background-color:transparent}
+.group-sidebar .RecentContact-list li{
+	*zoom: expression(function(ele){
+		ele.style.zoom="1";
+		Expressions.hover(ele);
+	}(this));
+}
+
+/*Talk box*/
+.talk-box{border:1px solid #404040;background-color:#151515}
+.talk-box h1.box-header{background-color:#151515;display:block;font-size:12px;padding:5px;border-bottom:1px solid #404040;height:15px;line-height:15px}
+.talk-box .box-body{padding:8px 8px 8px}
+.talk-box .box-body textarea{width:534px}
+.talk-box .m-editor-action{float:left;padding-top:5px;color:#808080}
+.talk-box .m-editor-submit{float:right}
+/*.talk-box .m-editor-action a {background:url(http://a.xnimg.cn/imgpro/minieditor/action_btn.png) no-repeat left -22px;padding:5px 0 3px 27px;height:23px;line-height:23px}
+* html .talk-box .m-editor-action a {padding:4px 0 3px 27px;height:23px;line-height:23px}*/
+.m-editor .m-editor-action span.m-editor-photo {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;background:transparent url(http://a.xnimg.cn/imgpro/icons/photo.gif) no-repeat scroll left center;color:#808080;display:inline-block;float:left;height:23px;line-height:23px;padding-left:18px}
+/*Talk upload-photo tips*/
+#gossipPhotoTooltip{position: relative;width: 150px;padding: 6px;padding-top: 12px;padding-right: 16px;height: 32px;background: url(http://a.xnimg.cn/imgpro/bg/photoTooltip.png) no-repeat left bottom;}
+#gossipPhotoTooltip a.close{position: absolute;width: 14px;height: 14px;right: 2px;top: 12px;text-indent: -9999px;outline: 0;background:url(http://a.xnimg.cn/imgpro/icons/icon_btn_all.gif) no-repeat scroll -63px -420px;_overflow: hidden;}
+#gossipPhotoTooltip a.close:hover{background:url(http://a.xnimg.cn/imgpro/icons/icon_btn_all.gif) no-repeat scroll -63px -434px;}
+/* cmt_list imported on 2008-08-10 */
+.comment-holder {padding:10px 0 0;}
+.comment-holder h3 {font-family:tahoma, mingliu;font-size:11px;color:#999;padding:3px 0;border-bottom:1px solid #ccc;}
+.comment {float:left;width:100%;min-height:40px;padding:10px;border-bottom:1px solid #d8dfea;color:white;}
+.comment .actor-img {width:58px; height:50px;float:left;}
+.comment .actor-img a {width:50px; height:50px;display:block;background-position:center center;background-repeat:no-repeat;}
+.comment .cmt-body {float:left;line-height:1.5em;overflow:visible;width:100%;}
+.comment.last .cmt-body {border:0;}
+.comment .cmt-body .info{overflow:hidden;zoom:1}
+.comment .cmt-body .info .time {font-size:11px;float:left;}
+.comment .cmt-body .author {float:left;margin-right:5px;color:white;}
+.comment .cmt-body .author img{margin-right:5px;}
+.comment .cmt-body .actions {float:right;width:45px;border-bottom:1px solid #D8DFEA}
+.comment .cmt-body .actions .reply, .comment .cmt-body .actions .del {float:left;}
+.comment .super-actions {padding-top:2px;float:right;}
+.comment .cmt-body .text-content {clear:left;padding-top:2px;word-break:break-all; word-wrap:break-word;}
+.comment .cmt-body .text-content .mb-cmt {left:3px;position:relative;top:1px}
+.comment .cmt-body .text-content .attachment{position:relative}
+.comment .cmt-body .text-content .attachment img{cursor: url(http://a.xnimg.cn/imgpro/cursor/zoom-in.cur), pointer;}
+.comment .cmt-body .author a{font-weight:bold;color:white;}
+.comment .cmt-body .delete a{float:right;color:white;}
+.comment .cmt-body .delete a:hover{text-decoration:underline;}
+.cmt-more {margin:15px 0 10px;padding:0 8px;text-align:right;background:url(http://a.xnimg.cn/imgpro/icons/icon_btn_all.gif) no-repeat right -459px}
+.with-gift .png-holder {float:right;width:64px;margin-left:10px;}
+.comment .super-actions .arrow{background: url(http://a.xnimg.cn/imgpro/icons/icon_btn_all.gif) no-repeat -36px -329px;display: block;height:16px;width:16px}
+.comment .super-actions .arrow:hover{text-decoration:none;background-position:-36px -347px!important;}
+.verification {padding-top:5px;}
+.verification span {float:left;}
+.verification .code {padding:5px 5px 0 0;}
+.verification .img {border:1px solid #BDC7D8;margin-right:5px;}
+.verification .input-text {width:55px;}
+.verification .description a {display:block;padding-bottom:1px;}
+
+.super-menu {position: absolute;display:none;}
+.super-menu .menu-item {background:#fff;border:1px solid #005eac;width: 64px;overflow:hidden;}
+.super-menu li a {display:block;padding-right:10%;width:90%;line-height:20px;height:20px;text-align:right;margin-bottom:-1px;border-bottom:1px solid #d8dfea;}
+.super-menu li a:hover {color:#fff;text-decoration:none;background:#005eac;}
+.whisper{float:right;padding-left:15px;font-weight:bold;background:url(http://a.xnimg.cn/img/lock_red.gif) no-repeat 0 2px;}

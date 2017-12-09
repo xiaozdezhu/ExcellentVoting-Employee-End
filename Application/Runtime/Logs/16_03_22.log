@@ -1,0 +1,8 @@
+[ 2016-03-22T22:11:52+08:00 ] 127.0.0.1 /index.php/Index/index/cityId/1/p/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.034002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.047003s ]
+NOTIC: [2] mysql_connect():  E:\workspace_leyi_shop\voteSpecial\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ç¬¬ 52 è¡Œ.
+ERR: ÓÉÓÚÁ¬½Ó·½ÔÚÒ»¶ÎÊ±¼äºóÃ»ÓĞÕıÈ·´ğ¸´»òÁ¬½ÓµÄÖ÷»úÃ»ÓĞ·´Ó¦£¬Á¬½Ó³¢ÊÔÊ§°Ü¡£
+
+

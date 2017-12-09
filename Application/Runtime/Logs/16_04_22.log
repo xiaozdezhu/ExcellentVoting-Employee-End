@@ -1,0 +1,56 @@
+[ 2016-04-22T00:07:33+08:00 ] 127.0.0.1 /vote-fe/index.php/home/employee/index/employeeId/9.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.008001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010001s ]
+SQL: SELECT * FROM employee WHERE id = 9 [ RunTime:0.058003s ]
+SQL: SELECT * FROM department WHERE id =  [ RunTime:0.026001s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SELECT * FROM department WHERE id = 
+SQL: SELECT * FROM comment WHERE employeeId = 9 ORDER BY time [ RunTime:0.337020s ]
+SQL: SELECT * FROM user [ RunTime:0.333019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant gender - assumed 'gender' E:\WWW\vote-fe\Application\Runtime\Cache\Home\bd28cd353734212445e247984d966dea.php 第 47 行.
+NOTIC: [8] Use of undefined constant userId - assumed 'userId' E:\WWW\vote-fe\Application\Runtime\Cache\Home\bd28cd353734212445e247984d966dea.php 第 122 行.
+NOTIC: [8] Use of undefined constant userId - assumed 'userId' E:\WWW\vote-fe\Application\Runtime\Cache\Home\bd28cd353734212445e247984d966dea.php 第 122 行.
+NOTIC: [8] Use of undefined constant userId - assumed 'userId' E:\WWW\vote-fe\Application\Runtime\Cache\Home\bd28cd353734212445e247984d966dea.php 第 122 行.
+NOTIC: [8] Use of undefined constant userId - assumed 'userId' E:\WWW\vote-fe\Application\Runtime\Cache\Home\bd28cd353734212445e247984d966dea.php 第 122 行.
+NOTIC: [8] Use of undefined constant userId - assumed 'userId' E:\WWW\vote-fe\Application\Runtime\Cache\Home\bd28cd353734212445e247984d966dea.php 第 122 行.
+NOTIC: [8] Use of undefined constant userId - assumed 'userId' E:\WWW\vote-fe\Application\Runtime\Cache\Home\bd28cd353734212445e247984d966dea.php 第 122 行.
+NOTIC: [8] Use of undefined constant userId - assumed 'userId' E:\WWW\vote-fe\Application\Runtime\Cache\Home\bd28cd353734212445e247984d966dea.php 第 122 行.
+NOTIC: [8] Use of undefined constant userId - assumed 'userId' E:\WWW\vote-fe\Application\Runtime\Cache\Home\bd28cd353734212445e247984d966dea.php 第 122 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.106006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.106006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.040002s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.041002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.013001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013001s ]
+
+[ 2016-04-22T00:08:02+08:00 ] 127.0.0.1 /vote-fe/index.php/home/employee/index/employeeId/3.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM employee WHERE id = 3 [ RunTime:0.001000s ]
+SQL: SELECT * FROM department WHERE id =  [ RunTime:0.001000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SELECT * FROM department WHERE id = 
+SQL: SELECT * FROM comment WHERE employeeId = 3 ORDER BY time [ RunTime:0.000000s ]
+SQL: SELECT * FROM user [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant gender - assumed 'gender' E:\WWW\vote-fe\Application\Runtime\Cache\Home\bd28cd353734212445e247984d966dea.php 第 47 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

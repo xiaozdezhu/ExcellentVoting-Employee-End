@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+html, body{
+	padding:0;
+	margin:0;
+	position:relative;
+	background:url(../img/right.jpg);
+	background-repeat:repeat;
+	color:black;
+	letter-spacing:1px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+
+.zebra caption{
+	font-size:20px;
+	font-weight:normal;
+	background:url(../img/zebratable.png);
+	background-repeat:no-repeat;
+	background-position: 130px center;
+	padding-top: 20px;
+	height:50px;}
+
+#container{
+	padding-top:20px;
+	width:560px;
+	margin:0 auto;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+	width:100%;
+	-webkit-box-shadow:  0px 2px 1px 5px rgba(242, 242, 242, 0.1);
+    box-shadow:  0px 2px 1px 5px rgba(242, 242, 242, 0.1);
+}
+
+.zebra {
+    border: 1px solid #555;
+}
+
+.zebra td {
+    border-left: 1px solid #555;
+    border-top: 1px solid #555;
+    padding: 10px;
+    text-align: left;
+}
+
+.zebra th, .zebra th:hover {
+    border-left: 1px solid #555;
+	border-bottom: 1px solid #828282;
+    padding: 20px;  
+    background-color:#151515 !important;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#151515), to(#404040)) !important;
+    background-image: -webkit-linear-gradient(top, #151515, #404040) !important;
+    background-image:    -moz-linear-gradient(top, #151515, #404040) !important;
+    background-image:     -ms-linear-gradient(top, #151515, #404040) !important;
+    background-image:      -o-linear-gradient(top, #151515, #404040) !important;
+    background-image:         linear-gradient(top, #151515, #404040) !important;
+	color:#fff !important;
+	font-weight:normal;
+}
+
+.zebra tbody tr:nth-child(even) {
+    background: #404040 !important;
+	color:#fff;
+}
+
+.zebra tr {
+	background:#151515;
+	color:#fff;
+}
+
+.voteButton { overflow: hidden; }
+.voteButton span { cursor: pointer;; float: left; background: url(../img/bg.png) no-repeat 9999px 9999px;}
+.voteButton span.weibo { margin-right: 4px; height: 22px; width: 22px; background-position: 0px -114px; }
+.voteButton span.weixing  {margin-right: 4px;  height: 22px; width: 22px; background-position: -23px -114px; }
+.voteButton span.more  {margin-right: 15px;  height: 22px; width: 22px; background-position: -46px -114px; }
+.voteButton span { cursor: pointer;; float: left; background: url(../img/bg.png) no-repeat 9999px 9999px;}
+.voteButton span.weiboVote {  margin-left:46px;margin-right: 2px; height: 22px; width: 62px; background-position: -69px -114px;}
+.voteButton span.voteNumber{height: 22px; width: 49px; background-position: -138px -114px; background-position: -138px -114px; text-align: center; line-height: 22px; color: #474747; font-size: 12px;font-weight:bold;}
