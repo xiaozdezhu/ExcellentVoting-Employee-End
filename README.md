@@ -1,3 +1,2 @@
-# Vote-FrontEnd
-Front end of excellent employee voting system for Simu Design Company
-Based on ThinkPhp framework
+# Vote-EmployeeEnd
+This is a web application based on ThinkPHP for Simu Design Company emlpoyees to vote for excellent employees.
